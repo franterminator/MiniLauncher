@@ -27,7 +27,7 @@ public class IspolMiniLauncher {
      */
     public static void main(String[] args) {
         //files
-        File parentFile = new File("C:\\Archivos de programa\\Ispol");
+        File parentFile = new File(".");
         File datesFile = new File(parentFile,"lang\\dlic.txt");
         
         //read the date
@@ -121,6 +121,7 @@ public class IspolMiniLauncher {
         
         return date;
     }
+    
     
     
 }
